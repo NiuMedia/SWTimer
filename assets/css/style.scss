@@ -1,0 +1,122 @@
+/* Write your CSS! */
+
+html {
+  height: 100%;
+}
+
+body {
+  background: url(imagenfondo2.png) no-repeat center center;
+}
+
+header {
+	width: 100%;
+	margin-bottom: 35px;
+	height: 170px;
+	
+}
+
+#cajita {
+	padding: 1.5em;
+	//background-color: rgba(204, 204, 204, 0.36);
+	width: 960px;
+	margin:auto;
+	clear:both;
+	
+}
+#cajitacontenedor {
+	width: 960px;
+	margin: auto;
+	clear: both;
+	}
+
+
+footer{
+	clear:both;
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+}
+.footer{
+	padding: 1em;
+}
+#footer1{
+	background-color: rgb(117,208,78);
+	color: white;
+
+}
+a.twitter{
+	color: white;
+	text-decoration: none;
+}
+
+
+
+
+#logo {
+	background: url(logo_verde.png);
+	width: 250px;
+	height: 144px;
+	float: left;
+}
+
+
+
+.cont-left {
+	width: 48%;
+	padding: 5px;
+	display: inline-block;
+}
+
+.cont-right {
+	width: 48%;
+	padding: 5px;
+	padding-top: 2.5em;
+	text-align: center;
+	display: inline-block;
+	vertical-align: top;
+}
+
+img.ipad {
+	width: 100%;
+}
+.btn{
+	background-color: rgb(227,81,54);
+	padding: 1em;
+	color: white;
+	text-align: center;
+	margin-bottom: 5px;
+}
+#btn1{
+	width: 92%;
+}
+#btn2{
+	width: 42%;
+	display: inline-block;
+
+}
+#btn3{
+	width: 42%;
+	display: inline-block;
+	vertical-align: top;
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  
+  /* Styles for mobile */
+
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+
+  /* Styles for tablet */
+
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) {
+
+  /* Don't forget your Retina CSS! */
+  
+  body {
+    background-size: 72px 72px;
+  }
+
+}
